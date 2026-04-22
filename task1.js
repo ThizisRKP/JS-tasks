@@ -41,7 +41,8 @@ console.log("Last fruit : " + fruits[fruits.length-1]);
 // Task 7: Object Task
 const student = {
     name : "Janani",
-    age : "22"
+    age : "22",
+    course : "MERN"
 };
 console.log(student.name);
 console.log(student.age);
@@ -76,8 +77,8 @@ console.log(5>2 && 10>3);
 console.log(7<5 || 8>2);
 console.log(!(10>5));
 
-//Task 12: Ternary Operator
 
+//Task 12: Ternary Operator
 let age = 18;
 (age >= 18) ? console.log("Eligible") : console.log("Not Eligible");
 
