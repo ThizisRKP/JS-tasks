@@ -135,10 +135,8 @@ function marksAnalyzer(...marks) {
   });
   const avrage = totalMarks / marks.length;
 
-  return (
-    console.log(`Total Marks = ${totalMarks}`),
-    console.log(`Avarage = ${avrage}`)
-  );
+  (console.log(`Total Marks = ${totalMarks}`),
+    console.log(`Avarage = ${avrage}`));
 }
 
 marksAnalyzer(80, 90, 70, 60);
