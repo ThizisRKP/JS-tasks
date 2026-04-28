@@ -48,7 +48,7 @@ checkPrinting();
 
 // Explanation for why secret is not printing outside of the scope
 
-// let is block-scoped, that means its only accessible inside block scope(checkPrint) function, So seceret belongs to funcion scope(block scope), its does not exist in the global scope, if we want to print secret in global scope means we need to call the function and store it in a variable in global scope and that fuction should return the secret variable that time only we can get a secret variable's value.
+// let is block-scoped, that means its only accessible inside block scope(checkPrint) function, So seceret variable belongs to funcion scope(block scope), its does not exist in the global scope, if we want to print secret variable in global scope means we need to call the function and store it in a variable in global scope and that function should return the secret variable that time only we can get a secret variable's value.
 
 //🟠 Level 3 – Spread / Rest
 //Task 6: Merge Arrays
